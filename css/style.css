@@ -169,7 +169,7 @@ hr {
 
 .img_down {
   display: flex;
-  background: url(../img/icons/down1.png) no-repeat 50% 50%;
+  background: url(../img/icons/down_1.png) no-repeat 50% 50%;
   width: 70px;
   height: 70px;
   justify-content: center;
@@ -178,12 +178,12 @@ hr {
 
 
 .img_down:hover {
-  background: url(../img/icons/down2.png) no-repeat 50% 50%;
+  background: url(../img/icons/down_2.png) no-repeat 50% 50%;
 }
 
 .img_up {
   display: flex;
-  background: url(../img/icons/up1.png) no-repeat 50% 50%;
+  background: url(../img/icons/up_1.png) no-repeat 50% 50%;
   width: 70px;
   height: 70px;
   justify-content: center;
@@ -191,5 +191,39 @@ hr {
 }
 
 .img_up:hover {
-  background: url(../img/icons/up2.png) no-repeat 50% 50%;
+  background: url(../img/icons/up_2.png) no-repeat 50% 50%;
+}
+
+.projects {
+  display: flex;
+  height: 70px;
+  width: 670px;
+  justify-content: center;
+  align-items: center;
+}
+
+.vk {
+  display: flex;
+  background: url(../img/icons/vk1.png) no-repeat 50% 50%;
+  width: 70px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.vk:hover {
+  background: url(../img/icons/vk2.png) no-repeat 50% 50%;
+}
+
+.youtube {
+  display: flex;
+  background: url(../img/icons/you1.png) no-repeat 50% 50%;
+  width: 70px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtube:hover {
+  background: url(../img/icons/you2.png) no-repeat 50% 50%;
 }
