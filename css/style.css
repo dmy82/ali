@@ -121,6 +121,10 @@ footer {
   padding-top: 50px;
 }
 
+.metrika {
+  float: right;
+}
+
 .video li {
   display: inline-block;
   margin-right: 80px;
