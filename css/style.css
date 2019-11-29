@@ -24,11 +24,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,600,700&display=swap&subset=cyrillic');
 
-h1 { 
-  display: block; 
-  font-size: 100px;
+h1 {
+  display: block;
+  font-size: 150px;
   color: #ffffff;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
 
@@ -48,13 +48,14 @@ a {
   color: #992020;
   text-decoration: underline;
 }
+
 .container_content {
   padding: 0 20px;
 }
 
 .container {
   width: 1200px;
-  margin: 20px auto;  
+  margin: 20px auto;
   background-color: #fff;
 }
 
@@ -122,12 +123,12 @@ a {
 
 footer {
   display: flex;
-  align-items: center;  
+  align-items: center;
   height: 100px;
   margin-top: 50px;
   border-top: 5px solid #3b0606;
   padding: 0 20px;
-  
+
 }
 
 .metrika {
