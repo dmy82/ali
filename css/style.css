@@ -31,6 +31,7 @@ h1 {
 
 }
 
+
 body {
   background-image: url(../img/more1.jpg);
   min-width: 1200px;
@@ -59,7 +60,7 @@ a {
   display: block;
   margin: 0 auto;
   text-align: center;
- 
+
 
 }
 
@@ -149,7 +150,7 @@ hr {
   display: flex;
   height: 70px;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
 .img_down {
@@ -158,12 +159,12 @@ hr {
   width: 70px;
   height: 70px;
   justify-content: center;
-  align-items: center;    
+  align-items: center;
 }
 
 
 .img_down:hover {
-  background: url(../img/icons/down2.png) no-repeat 50% 50%;  
+  background: url(../img/icons/down2.png) no-repeat 50% 50%;
 }
 
 .img_up {
@@ -172,19 +173,9 @@ hr {
   width: 70px;
   height: 70px;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
 .img_up:hover {
-  background: url(../img/icons/up2.png) no-repeat 50% 50%;  
-}
-label {
-  display: flex;
-  margin-bottom: 10px;
-  
-}
-textarea {
-  display: flex;
-  margin-left: 25px;
-  
+  background: url(../img/icons/up2.png) no-repeat 50% 50%;
 }
