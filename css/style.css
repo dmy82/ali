@@ -84,7 +84,7 @@ a {
 .main-navigation li {
   display: inline-block;
   margin-right: 10px;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 10px;
   height: 70px;
   width: 70px;
@@ -95,7 +95,7 @@ a {
   display: block;
   text-align: center;
   padding: 30px 10px;
-  color: #b13232;
+  color: #992020;
   text-decoration: none;
 }
 
@@ -106,12 +106,6 @@ a {
 
 .logo {
   margin-right: 20px;
-}
-
-.ground {
-  background-color: #e27676;
-  border-radius: 50%;
-
 }
 
 .container_header {
