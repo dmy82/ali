@@ -90,8 +90,12 @@ article {
 
 a {
   color: #4e1919;
+  text-decoration: none;
 }
-
+h3:hover {
+  color: #b13232;
+  
+} 
 .container_navigation_up {
   display: flex;
   height: 70px;
