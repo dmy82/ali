@@ -17,9 +17,11 @@ body {
   height: 130px;
   margin: 0 auto;
 }
+
 .logotip {
   margin-left: 10px;
 }
+
 .container_navigation {
   margin-left: auto;
   margin-right: 10px;
@@ -74,7 +76,18 @@ h1 {
   grid-template-columns: 640px 640px;
 }
 
-section,
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  border: 1px solid #4e1919;
+  margin: 10px;
+  border-radius: 30px;
+  font-size: 18px;
+  background-color: white;
+}
+
 article {
   display: flex;
   flex-direction: column;
@@ -92,10 +105,12 @@ a {
   color: #4e1919;
   text-decoration: none;
 }
+
 h3:hover {
   color: #b13232;
-  
-} 
+
+}
+
 .container_navigation_up {
   display: flex;
   height: 70px;
@@ -145,16 +160,20 @@ footer {
   justify-content: space-between;
   font-size: 14px;
 }
+
 .email {
   margin-left: 10px;
 }
+
 .projects {
   display: flex;
   width: 290px;
 }
+
 .metrika {
   margin-right: 10px;
 }
+
 .vk {
   display: flex;
   background: url(../img/icons/vk.png) no-repeat 50% 50%;
@@ -194,26 +213,18 @@ footer {
   background: url(../img/icons/youtube_hover.png) no-repeat 50% 50%;
 }
 
-@media only screen 
-and (max-device-width : 500px) 
- {
-  .container_top {    
-    grid-template-columns: auto;    
+@media only screen and (max-device-width : 500px) {
+  .container_top {
+    grid-template-columns: auto;
   }
+
   h2 {
     font-size: 38px;
     line-height: 40px;
   }
-  section h2,
-  article h2 {
-    width: auto;
-  }
+
   iframe {
     width: 950px;
     height: 534px;
   }
 }
-
-
-
-
