@@ -145,38 +145,52 @@ iframe {
   background: url(../img/icons/up.png) no-repeat 50% 50%;
   width: 70px;
   height: 70px;
-  
+
 }
 
 .img_up:hover {
   background: url(../img/icons/up_hover.png) no-repeat 50% 50%;
 }
+
 .container_page {
   display: flex;
   justify-content: center;
 }
-.page_one {
-  display: flex;
+
+.page_visit_one {
+  background: url(../img/icons/page_visit_1.png) no-repeat 50% 50%;
   width: 60px;
   height: 60px;
 }
-.page_one:hover {
-  background: url(../img/icons/page_hover_1.png) no-repeat 50% 50%; 
-}
-.page_one img {
- margin: auto;
-} 
-.page_two {
-  display: flex;
+
+.page_not_visit_one {
+  background: url(../img/icons/page_not_visit_1.png) no-repeat 50% 50%;
   width: 60px;
   height: 60px;
 }
-.page_two:hover {
-  background: url(../img/icons/page_hover_2.png) no-repeat 50% 50%; 
+
+.page_visit_one:hover,
+.page_not_visit_one:hover {
+  background: url(../img/icons/page_hover_1.png) no-repeat 50% 50%;
 }
-.page_two img {
-  margin: auto;
- } 
+
+.page_not_visit_two {
+  background: url(../img/icons/page_not_visit_2.png) no-repeat 50% 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.page_visit_two {
+  background: url(../img/icons/page_visit_2.png) no-repeat 50% 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.page_not_visit_two:hover,
+.page_visit_two:hover {
+  background: url(../img/icons/page_hover_2.png) no-repeat 50% 50%;
+}
+
 footer {
   display: flex;
   align-items: center;
