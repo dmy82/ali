@@ -80,6 +80,7 @@ h2 {
 .container_top {
   display: grid;
   grid-template-columns: 640px 640px;
+  margin-bottom: 15px;
 }
 
 section {
