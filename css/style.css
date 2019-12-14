@@ -126,6 +126,7 @@ iframe {
   height: 70px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .img_down {
@@ -133,8 +134,6 @@ iframe {
   background: url(../img/icons/down.png) no-repeat 50% 50%;
   width: 70px;
   height: 70px;
-  justify-content: center;
-  align-items: center;
 }
 
 .img_down:hover {
@@ -146,14 +145,38 @@ iframe {
   background: url(../img/icons/up.png) no-repeat 50% 50%;
   width: 70px;
   height: 70px;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .img_up:hover {
   background: url(../img/icons/up_hover.png) no-repeat 50% 50%;
 }
-
+.container_page {
+  display: flex;
+  justify-content: center;
+}
+.page_one {
+  display: flex;
+  width: 60px;
+  height: 60px;
+}
+.page_one:hover {
+  background: url(../img/icons/page_hover_1.png) no-repeat 50% 50%; 
+}
+.page_one img {
+ margin: auto;
+} 
+.page_two {
+  display: flex;
+  width: 60px;
+  height: 60px;
+}
+.page_two:hover {
+  background: url(../img/icons/page_hover_2.png) no-repeat 50% 50%; 
+}
+.page_two img {
+  margin: auto;
+ } 
 footer {
   display: flex;
   align-items: center;
