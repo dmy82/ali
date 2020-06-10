@@ -159,6 +159,7 @@ iframe {
 
 .page_visit_one {
   background: url(../img/icons/page_visit_1.png) no-repeat 50% 50%;
+  pointer-events: none;
   width: 60px;
   height: 60px;
 }
@@ -182,6 +183,7 @@ iframe {
 
 .page_visit_two {
   background: url(../img/icons/page_visit_2.png) no-repeat 50% 50%;
+  pointer-events: none;
   width: 60px;
   height: 60px;
 }
@@ -199,6 +201,7 @@ iframe {
 
 .page_visit_three {
   background: url(../img/icons/page_visit_3.png) no-repeat 50% 50%;
+  pointer-events: none;
   width: 60px;
   height: 60px;
 }
