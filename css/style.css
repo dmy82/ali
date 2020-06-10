@@ -191,6 +191,23 @@ iframe {
   background: url(../img/icons/page_hover_2.png) no-repeat 50% 50%;
 }
 
+.page_not_visit_three {
+  background: url(../img/icons/page_not_visit_3.png) no-repeat 50% 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.page_visit_three {
+  background: url(../img/icons/page_visit_3.png) no-repeat 50% 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.page_not_visit_three:hover,
+.page_visit_three:hover {
+  background: url(../img/icons/page_hover_3.png) no-repeat 50% 50%;
+}
+
 footer {
   display: flex;
   align-items: center;
