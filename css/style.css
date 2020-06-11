@@ -211,6 +211,42 @@ iframe {
   background: url(../img/icons/page_hover_3.png) no-repeat 50% 50%;
 }
 
+.page_not_visit_four {
+  background: url(../img/icons/page_not_visit_4.png) no-repeat 50% 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.page_visit_four {
+  background: url(../img/icons/page_visit_4.png) no-repeat 50% 50%;
+  pointer-events: none;
+  width: 60px;
+  height: 60px;
+}
+
+.page_not_visit_four:hover,
+.page_visit_four:hover {
+  background: url(../img/icons/page_hover_4.png) no-repeat 50% 50%;
+}
+
+.page_not_visit_five {
+  background: url(../img/icons/page_not_visit_5.png) no-repeat 50% 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.page_visit_five {
+  background: url(../img/icons/page_visit_5.png) no-repeat 50% 50%;
+  pointer-events: none;
+  width: 60px;
+  height: 60px;
+}
+
+.page_not_visit_five:hover,
+.page_visit_five:hover {
+  background: url(../img/icons/page_hover_5.png) no-repeat 50% 50%;
+}
+
 footer {
   display: flex;
   align-items: center;
