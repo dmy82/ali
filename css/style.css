@@ -48,7 +48,7 @@ body {
 .container_denomination {
   display: flex;
   height: 600px;
-  background-color: #4e1919;
+  background-color: #2b1111;
   align-items: center;
   min-width: 1280px;
 }
